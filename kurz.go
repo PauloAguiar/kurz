@@ -11,8 +11,9 @@ import (
 	"strings"
 	"time"
 
+	"codec"
+
 	"github.com/gorilla/mux"
-	"github.com/pauloaguiar/kurz/codec"
 	godis "github.com/simonz05/godis/redis"
 )
 
